@@ -8,7 +8,7 @@
   }
   
   .photoclient img {    
-    margin: 0 0.5em 
+    margin: 0 0.5em;
   }
   
   @keyframes bannermove {
@@ -19,4 +19,8 @@
         transform: translate(-50%, 0);
     }
 }
+
 /*instagram*/
+#clients, #instagram{
+  margin-bottom: 200px;
+}
