@@ -119,10 +119,6 @@
 .connect{
     padding-top: 200px;
     padding-bottom: 50px;
-    background-color: #000;
-}
-.connect h1{
-    color: #fff;
 }
 form input{
     background-color: transparent;
