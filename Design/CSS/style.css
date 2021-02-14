@@ -199,7 +199,13 @@ body.light #dark-toggle{
   opacity: 0;
 }
 
-.overlay ul li a {
+.overlay .page-active{
+  text-decoration: none;
+  overflow: hidden;
+
+}
+
+.overlay .page-link{
   /*display: block;*/
   color: #fec401;
   text-decoration: none;
@@ -212,7 +218,7 @@ body.light #dark-toggle{
   width: 100%;
 }
 
-.overlay ul li a:hover {
+.overlay .page-link:hover {
   border-right: #fec401 solid 2px;
   padding-right: 30px;
   -webkit-transition: .35s ease-out;
