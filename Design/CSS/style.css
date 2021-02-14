@@ -102,9 +102,8 @@ body.light #dark-toggle{
 .button_container span {
   background: #fec401;
   border: none;
-  height: 5px;
-  width: 150%;
-  border-radius: 5px;
+  height: 1.5px;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
