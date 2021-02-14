@@ -1,3 +1,6 @@
+::-webkit-scrollbar { 
+  display: none; 
+}
 /*dark & light button*/
 #dark-toggle {
     display: inline-block;
@@ -303,11 +306,21 @@ body.light .overlay.open {
 }
 body.light .overlay ul li a {
   /*display: block;*/
-  color: bla;
+  color: black;
   text-decoration: none;
   overflow: hidden;
 }
+body.light .button_container.active .top {
+  background: black;
+}
+body.light .button_container.active .bottom {
+  background: black;
+}
 /**/
+.nomduhaut{
+  margin: 0%;
+  font-size: 22.5px;
+}
 
 
 /*footer*/
