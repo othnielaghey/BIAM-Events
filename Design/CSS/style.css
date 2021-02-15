@@ -358,3 +358,19 @@ footer{
 .secondrow h6 a{
   color: #FFF;
 }
+
+@media all and (min-width: 642px) and (max-width: 767px){
+header .menu{
+  margin-left: 75%;
+  margin-top: -4%;
+}
+}
+
+@media (max-width:767px){
+  footer{
+    height: 100%;
+  }
+  .secondrow{
+    margin-top: 60px;
+  }
+}
