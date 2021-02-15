@@ -200,6 +200,7 @@ body.light #dark-toggle{
 }
 
 .overlay .page-active{
+  color: #fff;
   text-decoration: none;
   overflow: hidden;
 
@@ -207,7 +208,9 @@ body.light #dark-toggle{
 
 .overlay .page-link{
   /*display: block;*/
-  color: #fec401;
+  color: #fec401!important;
+  background-color: transparent;
+  border: none;
   text-decoration: none;
   overflow: hidden;
 }
@@ -220,6 +223,8 @@ body.light #dark-toggle{
 
 .overlay .page-link:hover {
   border-right: #fec401 solid 2px;
+  background-color: transparent;
+  border: none;
   padding-right: 30px;
   -webkit-transition: .35s ease-out;
   transition: .35s ease-out;
@@ -302,7 +307,6 @@ body.light .overlay{
   -webkit-transition: opacity .35s, visibility .35s, height .35s;
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
-
 }
 body.light .overlay.open {
   opacity: 1;
@@ -333,9 +337,7 @@ body.light .homelink{
   font-size: 22.5px;
 }
 
-
 /*footer*/
-
 footer{
   background-color: #141414;
   padding-top: 20px;
@@ -347,15 +349,12 @@ footer{
   color: #FFF;
 
 }
-
 .social h6 a{
   color: #fff;
 }
-
 .secondrow{
   margin-top: 100px;
 }
-
 .secondrow h6 a{
   color: #FFF;
 }
