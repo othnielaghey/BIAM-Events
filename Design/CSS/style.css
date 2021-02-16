@@ -33,12 +33,8 @@ body, html {
 }
 .navbar0{
   padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
-  z-index: 100;
-  position: sticky; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 .navbar0 .left{
   display: inline-flex;
@@ -376,6 +372,14 @@ footer{
 .secondrow h6 a{
   color: #FFF;
 }
+/*up*/
+.row-up{
+  margin-top: 18%;
+}
+.fa-chevron-up{
+  margin-left: 45%;
+  color: #fec401;
+}
 
 @media (max-width:767px){
   .navbar0 .right{
@@ -385,6 +389,12 @@ footer{
     margin-top: 10%;
     font-size: 34px;
   }
+  .row-up {
+    margin-top: 70%;
+}
+.fa-chevron-up{
+    margin-left: 47%;
+}
   footer{
     height: 100%;
   }

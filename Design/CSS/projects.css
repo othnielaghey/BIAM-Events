@@ -9,13 +9,6 @@
 .jumbotron-1 h1{
     font-size: 80px;
 }
-.row-up{
-    margin-top: 18%;
-}
-.fa-chevron-up{
-    margin-left: 45%;
-    color: #fec401;
-}
 .jumbotron-2{
     background-image: url(../IMG/projects/jumb2.jpg);
     width: 100%;
@@ -129,12 +122,6 @@
 @media (max-width: 767px){
     .jumbotron-1{
         padding-top: 50%;
-    }
-    .row-up {
-        margin-top: 70%;
-    }
-    .fa-chevron-up{
-        margin-left: 47%;
     }
     .jumbotron-1 h1, .big-title{
         font-size: 40px;
