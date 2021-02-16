@@ -1,15 +1,20 @@
 .full-top{
-    padding-top: 5%;
     width: 100%;
     height: 98vh;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
 }
+.full-top .row img{
+    width: 85%;
+    margin-left: 5%;
+}
+.full-top .row .col-md-3{
+    margin-top: 5%;
+}
 .big-title{
     font-size: 80px;
 }
-
 .connect{
     padding-top: 200px;
     padding-bottom: 50px;
@@ -41,5 +46,14 @@
     }
     .little-title{
         font-size: 16px;
+    }
+    .full-top{
+        padding-top: 30%;
+    }
+    .full-top .row{
+        margin-top: 20%;
+    }
+    .full-top .row img{
+        width: 100%;
     }
 }

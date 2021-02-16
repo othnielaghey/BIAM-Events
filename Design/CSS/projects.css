@@ -10,7 +10,7 @@
     font-size: 80px;
 }
 .jumbotron-2{
-    background-image: url(../IMG/projects/jumb2.jpg);
+    background-image: url(../IMG/projects/afrovibes_fest.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -22,7 +22,7 @@
     padding-top: 10%;
 }
 .jumbotron-3{
-    background-image: url(../IMG/projects/jumb3.jpg);
+    background-image: url(../IMG/projects/lafriendzone.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -30,7 +30,7 @@
     text-align: center;
 }
 .jumbotron-4{
-    background-image: url(../IMG/projects/jumb4.jpg);
+    background-image: url(../IMG/projects/royalty_night.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
