@@ -1,7 +1,34 @@
 ::-webkit-scrollbar { 
   display: none; 
 }
-
+@font-face
+{
+    font-family: 'Mazzard';
+    src: url('../FONTS/MazzardH-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Mazzard_I';
+    src: url('../FONTS/MazzardH-BlackItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Monument';
+    src: url('../FONTS/MonumentExtended-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Monument_B';
+    src: url('../FONTS/MonumentExtended-Ultrabold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
 /*dark & light button*/
 #dark-toggle {
     display: inline-block;
@@ -353,6 +380,7 @@ body.light .homelink{
 .nomduhaut{
   margin: 0%;
   font-size: 22.5px;
+  font-family: 'Mazzard';
 }
 
 /*footer*/
