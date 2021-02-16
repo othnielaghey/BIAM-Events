@@ -32,11 +32,22 @@ body, html {
   height: 100%;
 }
 .navbar0{
+  padding-top: 20px;
+  display: flex;
   z-index: 100;
   position: sticky; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+.navbar0 .left{
+  display: inline-flex;
+  margin: auto;
+}
+.navbar0 .right{
+  display: inline-flex;
+  margin: auto;
+  margin-left: 70%;
 }
 body{
   background-color: black;
@@ -366,14 +377,14 @@ footer{
   color: #FFF;
 }
 
-@media all and (min-width: 642px) and (max-width: 767px){
-header .menu{
-  margin-left: 75%;
-  margin-top: -4%;
-}
-}
-
 @media (max-width:767px){
+  .navbar0 .right{
+    margin-left: 40%;
+  }
+  .overlay nav{
+    margin-top: 10%;
+    font-size: 34px;
+  }
   footer{
     height: 100%;
   }
