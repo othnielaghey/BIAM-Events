@@ -14,11 +14,18 @@
 }
 .big-title{
     font-size: 80px;
+    font-family: 'Mazzard';
+}
+.little-title{
+    font-family: 'Monument';
+    font-size: 18px;
+    margin-top: -2%;
 }
 .connect{
     padding-top: 200px;
     padding-bottom: 50px;
     background-color: #000000;
+    font-family: 'Monument';
 }
 .connect h1{
     color: #fff;
@@ -35,7 +42,7 @@
     margin-left: 35%;
     margin-right: 35%;
     width: 30%;
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: #fec401;
     border: none;
 }

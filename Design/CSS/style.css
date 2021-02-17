@@ -173,6 +173,7 @@ body.light #dark-toggle{
   -webkit-transition: opacity .35s, visibility .35s, height .35s;
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
+  font-family: 'Mazzard';
 }
 
 .overlay.open {
@@ -329,7 +330,6 @@ body.light #dark-toggle{
   color: #FFF;
 }
 .rs_link:hover{
-  color: #FFF;
   text-decoration: none;
 }
 /**/
@@ -386,6 +386,13 @@ footer{
   padding-bottom: 20px;
   bottom: 0;
   color: #fff;
+  font-family: 'Monument';
+}
+footer h4{
+  font-size: 20px;
+}
+footer h6{
+  font-size: 16px;
 }
 .connect-with-biam h6 a{
   color: #FFF;
@@ -395,7 +402,7 @@ footer{
   color: #fff;
 }
 .secondrow{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .secondrow h6 a{
   color: #FFF;
@@ -427,6 +434,6 @@ footer{
     height: 100%;
   }
   .secondrow{
-    margin-top: 60px;
+    margin-top: 30px;
   }
 }

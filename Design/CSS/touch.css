@@ -3,9 +3,13 @@
     border-radius: 50%;
     padding: 40% 20%;
     margin-top: -5%;
+    font-family: 'Mazzard';
 }
 .row-up{
     display: none;
+}
+form{
+    font-family: 'Monument';
 }
 .form-row1{
     margin-top: 5%;
@@ -37,6 +41,10 @@ input::placeholder{
 .form-row2 button{
     padding: 55px;
     background-color: #fec401;
+    font-family: 'Monument';
+}
+.rs_link{
+    font-family: 'Monument';
 }
 footer{
     margin-top: 5%;
@@ -63,5 +71,8 @@ footer{
     .form-row2 button{
         padding: 25px;
         margin-bottom: 15%;
+    }
+    .rs_link{
+        font-size: 10px;
     }
 }
