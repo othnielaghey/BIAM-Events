@@ -5,7 +5,7 @@
 .a-propos .col-md-3 p{
   font-size: 40px;
 }
-.a-propos .col-md-4 span{
+.a-propos .col-md-3 span{
   font-weight: bolder;
 }
 .a-propos .col-md-9{
@@ -23,43 +23,48 @@
 .what-we-do .col-md-3{
   background-repeat: no-repeat;
   background-size: contain;
-  height: 500px;
+}
+.what-we-do1 p, .what-we-do2 p, .what-we-do3 p, .what-we-do4 p{
+  color: #fff;
+  font-family: 'Monument';
+  margin-top: 50%;
 }
 .what-we-do1{
   background-image: url(../IMG/index/concert-spectacles.jpg);
 }
 .what-we-do2{
   background-image: url(../IMG/index/cultural-experiences.jpg);
-
 }
 .what-we-do3{
-  background-image: url(../IMG/index/content-production.jpg);
-}
-.what-we-do4{
   background-image: url(../IMG/index/conferences-exhibiition.jpg);
 }
-.what-we-do .see-more-btn{
-  border-radius: 50px;
-  background-color: #fff;
+.what-we-do4{
+  background-image: url(../IMG/index/content-production.jpg);
+}
+
+.myBtn{
+  border-radius: 45px;
+  background-color: #fec401;
   border: none;
   color: #000;
   text-align: center;
-  font-size: 28px;
-  padding: 5px;
-  width: 200px;
+  width: 120px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 15%;
-  margin-top: 90%;
+  padding: 5px 10px;
+  margin: 30%;
+  margin-top: 40%;
 }
-.what-we-do .see-more-btn span{
+.myBtn span {
+  font-family: 'Monument';
+  font-size: 11px;
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  font-size: 20px;
 }
-.what-we-do .see-more-btn span::after{
+
+.myBtn span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -67,10 +72,12 @@
   right: -20px;
   transition: 0.5s;
 }
-.what-we-do .see-more-btn span:hover{
+
+.myBtn:hover span {
   padding-right: 25px;
 }
-.what-we-do .see-more-btn:hover span:after {
+
+.myBtn:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -79,7 +86,6 @@
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -88,30 +94,61 @@
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.815);
   margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  margin-top: 5%;
+  padding: 1%;
+  padding-top: 7%;
+  width: 90%;
+  height: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
 }
-
+.modal-content .col-md-8 h2{
+  margin-bottom: 5%;
+}
+.modal-content .col-md-8 h2, .modal-content .col-md-8 h5{
+  font-family: 'Monument';
+  color: #fff;
+}
+.project-btn{
+  background-color: #fec401;
+  border: none;
+  font-family: 'Monument';
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: 50%;
+}
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #fff;
   float: right;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
+  opacity: 10;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
+
+
+
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+
 .photoclient {
   display: none;
     position:absolute; 
@@ -135,16 +172,38 @@
     }
 }
 
+
 /*instagram*/
 #clients, #instagram{
   margin-bottom: 200px;
 }
 
 @media (max-width:767px){
-  .a-propos .col-md-8{
+  .a-propos .col-md-3 p {
+    font-size: 30px;
+  }
+  .a-propos .col-md-9{
     text-align: center;
+    font-size: 12px;
   }
   .a-propos img{
     width: 100%;
   }
+  .what-we-do{
+    margin-top: 15%;
+  }
+  .what-we-do h1{
+    font-size: 30px;
+  }
+  .what-we-do h1{
+    font-family: 'Monument';
+    padding-bottom: 10%;
+  }
+  .modal-content, .modal{
+    background-color: #000;
+  }
+  .close{
+    color: #fec401;
+  }
+
 }
