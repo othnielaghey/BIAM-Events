@@ -1,4 +1,119 @@
+.a-propos{
+  margin-top: 2%;
+  font-family: 'Monument';
+}
+.a-propos .col-md-3 p{
+  font-size: 40px;
+}
+.a-propos .col-md-4 span{
+  font-weight: bolder;
+}
+.a-propos .col-md-9{
+  font-size: 15px;
+}
+.a-propos img{
+  width: 100%;
+}
+.what-we-do{
+  margin-top: 5%;
+}
+.what-we-do h1{
+  font-family: 'Monument';
+}
+.what-we-do .col-md-3{
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+}
+.what-we-do1{
+  background-image: url(../IMG/index/concert-spectacles.jpg);
+}
+.what-we-do2{
+  background-image: url(../IMG/index/cultural-experiences.jpg);
+
+}
+.what-we-do3{
+  background-image: url(../IMG/index/content-production.jpg);
+}
+.what-we-do4{
+  background-image: url(../IMG/index/conferences-exhibiition.jpg);
+}
+.what-we-do .see-more-btn{
+  border-radius: 50px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 15%;
+  margin-top: 90%;
+}
+.what-we-do .see-more-btn span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 20px;
+}
+.what-we-do .see-more-btn span::after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.what-we-do .see-more-btn span:hover{
+  padding-right: 25px;
+}
+.what-we-do .see-more-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 .photoclient {
+  display: none;
     position:absolute; 
     top:0px; 
     left:0px; 
@@ -23,4 +138,13 @@
 /*instagram*/
 #clients, #instagram{
   margin-bottom: 200px;
+}
+
+@media (max-width:767px){
+  .a-propos .col-md-8{
+    text-align: center;
+  }
+  .a-propos img{
+    width: 100%;
+  }
 }
