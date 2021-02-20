@@ -14,7 +14,7 @@
     src: url('../FONTS/MazzardH-BlackItalic.otf');
     font-weight: normal;
     font-style: normal;
-}
+} 
 @font-face
 {
     font-family: 'Monument';
@@ -57,6 +57,7 @@
 /*html*/
 body, html {
   height: 100%;
+  width: 100%;
 }
 .navbar0{
   padding-top: 20px;
@@ -89,6 +90,7 @@ body.light{
   transition: all 200ms ease;
 
 }
+
 body.dark #dark-toggle{
 
   background-image: url("../IMG/SVG/moon-outline-jaune.svg");
@@ -430,9 +432,6 @@ footer h6{
 .fa-chevron-up{
     margin-left: 47%;
 }
-  footer{
-    height: 100%;
-  }
   .secondrow{
     margin-top: 30px;
   }

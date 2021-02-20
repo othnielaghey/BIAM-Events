@@ -106,19 +106,20 @@
 .connect{
     padding-top: 200px;
     padding-bottom: 50px;
-    background-color: #000000;
     font-family: 'Monument';
-}
-.connect h1{
-    color: #fff;
 }
 .connect form input{
     background-color: transparent;
     border: none;
     border-bottom: #fff solid 3px;
-    color: #fff;
     width: 100%;
 }
+body.dark  .connect form input{
+    color: #fff;
+  }
+  body.light .connect form input{
+    border-bottom: solid #000 3px;
+  }
 .connect button{
     margin-top: 5%;
     margin-left: 35%;
