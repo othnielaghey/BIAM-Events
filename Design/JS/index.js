@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 // Get the modal
 var modal1 = document.getElementById("whatwedo1");
 var modal2 = document.getElementById("whatwedo2");

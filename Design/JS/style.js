@@ -1,28 +1,42 @@
+/*Theme Mode Setting*/
+let themeMode = localStorage.getItem("themeMode");
 
-$("#light-toggle").click(function() {
-    $('body').removeClass();
-    $('body').addClass('light');
-});
+$("#dark-toggle").click(
+  function(){
+  $('body').removeClass('light');
+  $('body').addClass('dark');
 
-$("#dark-toggle").click(function() {
-    $('body').removeClass();
-    $('body').addClass('dark');
-});
+  localStorage.setItem("themeMode", 'dark');
 
-/*nav
+})
 
-(function() {
-    var body = document.body;
-    var burgerMenu = document.getElementsByClassName('b-menu')[0];
-    var burgerNav = document.getElementsByClassName('b-nav')[0];
+$("#light-toggle").click(
+  function(){
+  $('body').removeClass('dark');
+  $('body').addClass('light');
+
+  localStorage.setItem("themeMode", 'light');
+
+})
+
+if(themeMode == null){
+  localStorage.setItem("themeMode", 'dark'); //set default themeMode
+  }
   
-    burgerMenu.addEventListener('click', function toggleClasses() {
-      [body, burgerNav].forEach(function (el) {
-        el.classList.toggle('open');
-      });
-    }, false);
-  })();
-*/
+if(themeMode == 'light'){
+  $('body').addClass('light');
+  $('body').removeClass('dark');
+    localStorage.setItem("themeMode", 'light');
+
+}
+
+if(themeMode == 'dark'){
+  $('body').addClass('dark');
+  $('body').removeClass('light');
+    localStorage.setItem("themeMode", 'dark');
+
+}
+
 
 //document ready
 $(function () {
