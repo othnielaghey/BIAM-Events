@@ -374,6 +374,9 @@ body.light .homelink{
   color: #fec401;
   
 }
+body.light .rs_link{
+  color: #000;
+}
 /**/
 .nomduhaut{
   margin: 0%;
@@ -434,5 +437,9 @@ footer h6{
 }
   .secondrow{
     margin-top: 30px;
+  }
+  .rs_link{
+    font-size: 12px;
+    margin: 15px;
   }
 }

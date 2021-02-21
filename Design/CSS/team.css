@@ -26,7 +26,8 @@
     margin-bottom: 150px;
 }
 .profil-picture{
-    border: solid #fec401 5px;
+    border-left: solid #fec401 5px;
+    border-bottom: solid #fec401 5px;
     border-radius: 50px;
 }
 /*Flip card*/

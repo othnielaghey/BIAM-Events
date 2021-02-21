@@ -7,6 +7,11 @@
   margin-top: 2%;
   font-family: 'Monument';
 }
+.a-propos .col-md-3{
+  border-top: solid #fec401 6px;
+  border-right: solid #fec401 6px;
+  border-radius: 10px;
+}
 .a-propos .col-md-3 p{
   font-size: 40px;
 }
