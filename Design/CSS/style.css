@@ -330,6 +330,7 @@ body.light #dark-toggle{
 }
 .rs_link{
   color: #FFF;
+  font-family: 'Monument'!important;
 }
 .rs_link:hover{
   text-decoration: none;
