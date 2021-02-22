@@ -28,7 +28,9 @@
 .profil-picture{
     border-left: solid #fec401 5px;
     border-bottom: solid #fec401 5px;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 /*Flip card*/
 .flip-card {
@@ -72,6 +74,14 @@
       font-family: 'Monument';
       font-weight: lighter;
   }
+  body.light .founder-text a{
+      text-align: none;
+      color: #000;
+  }
+  body.dark .founder-text a{
+      text-align: none;
+      color: #fff;
+  }
   #the-team{
       text-align: center;
   }
@@ -83,6 +93,14 @@
       font-size: 16px;
       color: #fec401;
   }
+  body.light #the-team .team-text a{
+      text-decoration: none;
+      color: #000;
+  }
+  body.dark #the-team .team-text a{
+    text-decoration: none;
+    color: #fff!important;
+}
   #the-team .row{
       margin-bottom: 10%;
   }
@@ -100,7 +118,7 @@
 body.dark  .connect form input{
     color: #fff;
   }
-  body.light .connect form input{
+body.light .connect form input{
     border-bottom: solid #000 3px;
   }
 .connect button{
@@ -145,7 +163,9 @@ body.dark  .connect form input{
         margin-bottom: 30%;
     }
     .flip-card-back img, .flip-card-front img{
-        margin-right: -20px!important;
+        width: 270px;
+        height: 320px;
+        margin-right: 0px!important;
     }
     .connect{
         padding-top: 50px;

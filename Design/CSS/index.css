@@ -10,7 +10,7 @@
 .a-propos .col-md-3{
   border-top: solid #fec401 6px;
   border-right: solid #fec401 6px;
-  border-radius: 10px;
+  border-top-right-radius: 15px;
 }
 .a-propos .col-md-3 p{
   font-size: 40px;
@@ -25,6 +25,8 @@
   width: 100%;
 }
 .what-we-do{
+  background-image: url(../IMG/index/whatwedo_bg.png);
+  background-repeat: no-repeat;
   margin-top: 5%;
 }
 .what-we-do h1{

@@ -1,12 +1,12 @@
 /*Theme Mode Setting*/
-let themeMode = localStorage.getItem("themeMode");
+let themeMode = sessionStorage.getItem("themeMode");
 
 $("#dark-toggle").click(
   function(){
   $('body').removeClass('light');
   $('body').addClass('dark');
 
-  localStorage.setItem("themeMode", 'dark');
+  sessionStorage.setItem("themeMode", 'dark');
 
 })
 
@@ -15,25 +15,25 @@ $("#light-toggle").click(
   $('body').removeClass('dark');
   $('body').addClass('light');
 
-  localStorage.setItem("themeMode", 'light');
+  sessionStorage.setItem("themeMode", 'light');
 
 })
 
 if(themeMode == null){
-  localStorage.setItem("themeMode", 'dark'); //set default themeMode
+  sessionStorage.setItem("themeMode", 'dark'); //set default themeMode
   }
   
 if(themeMode == 'light'){
   $('body').addClass('light');
   $('body').removeClass('dark');
-    localStorage.setItem("themeMode", 'light');
+    sessionStorage.setItem("themeMode", 'light');
 
 }
 
 if(themeMode == 'dark'){
   $('body').addClass('dark');
   $('body').removeClass('light');
-    localStorage.setItem("themeMode", 'dark');
+    sessionStorage.setItem("themeMode", 'dark');
 
 }
 
