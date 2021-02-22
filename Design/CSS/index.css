@@ -1,6 +1,18 @@
+#slide1-img{
 
-
-
+}
+#slide1-text{
+  border: solid 5px;
+  border-radius: 50%;
+  margin-left: -10%;
+  padding: 14%;
+}
+#slide1-text p{
+  font-size: 15px;
+}
+#slideshow{
+  height: 100vh;
+}
 
 
 .a-propos{
@@ -25,8 +37,9 @@
   width: 100%;
 }
 .what-we-do{
-  background-image: url(../IMG/index/whatwedo_bg.png);
+  background-image: url(../IMG/index/whatwedobg.png);
   background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 5%;
 }
 .what-we-do h1{
@@ -160,7 +173,6 @@
   to {top: 0; opacity: 1}
 }
 #clients{
-  display: none;
 }
 #clients h1{
   font-family: 'Monument';
@@ -169,27 +181,7 @@
   font-family: 'Monument';
 }
 
-.photoclient {
-    position:absolute; 
-    top:0px; 
-    left:0px; 
-    overflow:hidden; 
-    white-space: nowrap;
-    animation: bannermove 10s linear infinite;
-  }
-  
-  .photoclient img {    
-    margin: 0 0.5em;
-  }
-  
-  @keyframes bannermove {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-50%, 0);
-    }
-}
+
 
 /*instagram*/
 #clients, #instagram{
