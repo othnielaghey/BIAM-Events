@@ -5,16 +5,42 @@
   border: solid 5px;
   border-radius: 50%;
   margin-left: -10%;
-  padding: 14%;
+  padding: 15% 3% 15% 11%;
+  font-size: 18px;
+ /* Create the circle */
+ /* Halve the circle */
+ border-left-color: transparent;
+ /* Rotate the circle */
+ transform: rotate(-10deg);
 }
+
 #slide1-text p{
-  font-size: 15px;
+  font-size: 20px;
+  transform: rotate(10deg);
 }
 #slideshow{
   height: 100vh;
 }
 
-
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+  border: solid #fec401 3px;
+  border-radius: 50px;
+  color: #fec401!important;
+}
+body.dark .carousel-control-next-icon, body.dark .carousel-control-prev-icon{
+  background-color: #fec401!important;
+}
+body.light .carousel-control-next-icon, body.light .carousel-control-prev-icon{
+  background-color: #fec401!important;
+}
+.carousel-control-next-icon{
+  margin-bottom: 100%;
+}
+.carousel-control-prev-icon{
+  margin-top: 100%;
+}
 .a-propos{
   margin-top: 2%;
   font-family: 'Monument';
@@ -189,6 +215,9 @@
 }
 
 @media (max-width:767px){
+  #slide1-text{
+    margin-left: 0!important;
+  }
   .a-propos .col-md-3 p {
     font-size: 30px;
   }
