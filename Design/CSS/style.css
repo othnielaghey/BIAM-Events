@@ -423,7 +423,20 @@ footer h6{
   color: #fec401;
 }
 
+.mobilenone{
+  display: none;
+}
+.webnone{
+  display: block;
+}
+
 @media (max-width:767px){
+  .mobilenone{
+    display: block;
+  }
+  .webnone{
+    display: none;
+  }
   .navbar0 .right{
     margin-left: 40%;
   }
