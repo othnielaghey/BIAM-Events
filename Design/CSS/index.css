@@ -338,6 +338,13 @@ body.light #start-project form input {
     margin-top: 400%;
   }
 
+  #slideshow .person-name{
+    margin-top: 0vh;
+    margin-left: 0vh;
+    margin-bottom: -2vh;
+    font-size: 12px;
+  }
+
   .a-propos .col-md-4 p {
     font-size: 30px;
   }
