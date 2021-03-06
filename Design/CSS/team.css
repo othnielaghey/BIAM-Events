@@ -1,127 +1,151 @@
-.full-top{
+.full-top {
     width: 100%;
     height: 98vh;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
 }
-.full-top .row img{
+
+.full-top .row img {
     width: 85%;
     margin-left: 5%;
 }
-.full-top .row .col-md-3{
+
+.full-top .row .col-md-3 {
     margin-top: 5%;
 }
-.big-title{
+
+.big-title {
     font-size: 80px;
     font-family: 'Mazzard';
 }
-.little-title{
+
+.little-title {
     font-family: 'Monument';
     font-size: 18px;
     margin-top: -2%;
 }
-#meet-the-team{
+
+#meet-the-team {
     margin-top: 50px;
     margin-bottom: 150px;
 }
-.profil-picture{
+
+.profil-picture {
     border-left: solid #fec401 5px;
     border-bottom: solid #fec401 5px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+
 /*Flip card*/
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
     perspective: 1000px;
-  }
-  
-  .flip-card-inner {
+}
+
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
+}
+
+.flip-card:hover .flip-card-inner {
     transform: rotateX(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
+}
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
-  
-  .flip-card-back {
+}
+
+.flip-card-back {
     transform: rotateX(-180deg);
-  }
-  .founder-text h2 span{
+}
+
+.founder-text h2 span {
     font-family: 'Mazzard';
 }
-  .founder-text h3{
-      font-family: 'Mazzard';
-  }
-  .founder-text h5{
-      font-family: 'Monument';
-      font-weight: lighter;
-  }
-  body.light .founder-text a{
-      text-align: none;
-      color: #000;
-  }
-  body.dark .founder-text a{
-      text-align: none;
-      color: #fff;
-  }
-  #the-team{
-      text-align: center;
-  }
-  #the-team .team-text h2 span{
+
+.founder-text h3 {
+    font-family: 'Mazzard';
+}
+
+.founder-text h5 {
+    font-family: 'Monument';
+    font-weight: lighter;
+}
+
+body.light .founder-text a {
+    text-align: none;
+    color: #000;
+}
+
+body.dark .founder-text a {
+    text-align: none;
+    color: #fff;
+}
+
+#the-team {
+    text-align: center;
+}
+
+#the-team .team-text h2 span {
     font-family: 'Monument';
 }
-  #the-team .team-text h3{
-      font-family: 'Monument';
-      font-size: 16px;
-      color: #fec401;
-  }
-  body.light #the-team .team-text a{
-      text-decoration: none;
-      color: #000;
-  }
-  body.dark #the-team .team-text a{
-    text-decoration: none;
-    color: #fff!important;
+
+#the-team .team-text h3 {
+    font-family: 'Monument';
+    font-size: 16px;
+    color: #fec401;
 }
-  #the-team .row{
-      margin-bottom: 10%;
-  }
-.connect{
+
+body.light #the-team .team-text a {
+    text-decoration: none;
+    color: #000;
+}
+
+body.dark #the-team .team-text a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+#the-team .row {
+    margin-bottom: 10%;
+}
+
+.connect {
     padding-top: 200px;
     padding-bottom: 50px;
     font-family: 'Monument';
 }
-.connect form input{
+
+.connect form input {
     background-color: transparent;
     border: none;
     border-bottom: #fff solid 3px;
     width: 100%;
 }
-body.dark  .connect form input{
+
+body.dark .connect form input {
     color: #fff;
-  }
-body.light .connect form input{
+}
+
+body.light .connect form input {
     border-bottom: solid #000 3px;
-  }
-.connect button{
+}
+
+.connect button {
     margin-top: 5%;
     margin-left: 35%;
     margin-right: 35%;
@@ -131,47 +155,60 @@ body.light .connect form input{
     border: none;
 }
 
-@media (max-width: 767px){
-    .big-title{
+@media (max-width: 767px) {
+    .big-title {
         font-size: 40px;
     }
-    .little-title{
+
+    .little-title {
         font-size: 16px;
     }
-    .full-top{
+
+    .full-top {
         padding-top: 30%;
     }
-    .full-top .row{
+
+    .full-top .row {
         margin-top: 20%;
     }
-    .full-top .row img{
+
+    .full-top .row img {
         width: 100%;
     }
-    .founder-text{
+
+    .founder-text {
         text-align: center;
     }
-    .founder-text h3{
+
+    .founder-text h3 {
         font-size: 16px;
     }
-    .founder-text h5{
+
+    .founder-text h5 {
         font-size: 16px;
     }
-    .team-text h2{
+
+    .team-text h2 {
         font-size: 30px;
     }
-    #the-team .row .col-md-3{
+
+    #the-team .row .col-md-3 {
         margin-bottom: 30%;
     }
-    .flip-card-back img, .flip-card-front img{
+
+    .flip-card-back img,
+    .flip-card-front img {
         width: 270px;
         height: 320px;
-        margin-right: 0px!important;
+        margin-right: 0px !important;
     }
-    .connect{
+
+    .connect {
         padding-top: 50px;
         padding-bottom: 25px;
     }
-    .connect h1{
+
+    .connect h1 {
         font-size: 20px;
     }
 }
