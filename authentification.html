@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="Design/OUTILS/all.min.css">
-    <link rel="stylesheet" href="Design/OUTILS/animate.min.css">
-    <link rel="stylesheet" href="Design/OUTILS/bootstrap.css">
+    <link rel="stylesheet" href="Biam_tm/Design/OUTILS/all.min.css">
+    <link rel="stylesheet" href="Biam_tm/Design/OUTILS/animate.min.css">
+    <link rel="stylesheet" href="Biam_tm/Design/OUTILS/bootstrap.css">
 
-    <script src="Design/OUTILS/all.min.js"></script>
-    <script src="Design/OUTILS/aos.js"></script>
-    <script src="Design/OUTILS/bootstrap.js"></script>
-    <script src="Design/OUTILS/jquery-3.4.1.min.js"></script>
+    <script src="Biam_tm/Design/OUTILS/all.min.js"></script>
+    <script src="Biam_tm/Design/OUTILS/aos.js"></script>
+    <script src="Biam_tm/Design/OUTILS/bootstrap.js"></script>
+    <script src="Biam_tm/Design/OUTILS/jquery-3.4.1.min.js"></script>
     
     <style>
         #logo{
@@ -194,7 +194,7 @@ span.psw {
                 <label for="password"><b>Mot de passe</b></label>
                 <input type="password" placeholder="Entrer votre mot de passe" name="password" required>
                     
-                <button type="button" onclick="login()">Se connecter</button>
+                <button type="button" onclick="Login()" value="Connextion!">Se connecter</button>
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
                 </label>
@@ -219,7 +219,7 @@ span.psw {
 
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
-<script>
+<script language="JavaScript">
 // Get the modal
 var modal = document.getElementById('id01');
 
@@ -231,7 +231,7 @@ window.onclick = function(event) {
 }
 
 //loginform
-function login(){
+function Login(){
     var done=0;
     var username = document.login.username.value;
     var password = document.login.password.value;
